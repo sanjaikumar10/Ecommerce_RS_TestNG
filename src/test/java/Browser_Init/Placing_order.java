@@ -140,13 +140,53 @@ public class Placing_order extends Baseclass{
 		map.put("productname","ZARA COAT 3");
 		return new Object[][] {{},{}};
 	}
+	@DataProvider
+	public Object[][] mainbranch1(){
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ADIDAS ORIGINAL");
+
+		HashMap<String, String> map1 = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ZARA COAT 3");
+		return new Object[][] {{},{}};
+	}
+	@DataProvider
+	public Object[][] mainbranch2(){
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ADIDAS ORIGINAL");
+
+		HashMap<String, String> map1 = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ZARA COAT 3");
+		return new Object[][] {{},{}};
+	}
+	@DataProvider
+	public Object[][]mainbranch3(){
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ADIDAS ORIGINAL");
+
+		HashMap<String, String> map1 = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ZARA COAT 3");
+		return new Object[][] {{},{}};
+	}
+
 
 }
 
 
 
 
-
+//above dataprovider is for practice purpose only except first data provider and have put many many sysout that to practice
 
 
 
