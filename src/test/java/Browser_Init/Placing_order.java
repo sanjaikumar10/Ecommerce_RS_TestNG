@@ -87,7 +87,7 @@ public class Placing_order extends Baseclass{
 		String thankMessage=lib.getText(pageelements.validation_message);
 		System.out.println(thankMessage);
 		Assert.assertTrue(thankMessage.trim().equalsIgnoreCase("Thankyou for the order."));
-		
+
 		System.out.println("Git practice 1");
 		System.out.println("Git practice 2");
 		System.out.println("Git practice 3");
@@ -114,6 +114,71 @@ public class Placing_order extends Baseclass{
 		map.put("productname","ZARA COAT 3");
 		return new Object[][] {{},{}};
 	}
+	@DataProvider
+	public Object[][] getData1(){
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ADIDAS ORIGINAL");
+
+		HashMap<String, String> map1 = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ZARA COAT 3");
+		return new Object[][] {{},{}};
+	}
+	@DataProvider
+	public Object[][] getData2(){
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ADIDAS ORIGINAL");
+
+		HashMap<String, String> map1 = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ZARA COAT 3");
+		return new Object[][] {{},{}};
+	}
+	@DataProvider
+	public Object[][] mainbranch1(){
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ADIDAS ORIGINAL");
+
+		HashMap<String, String> map1 = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ZARA COAT 3");
+		return new Object[][] {{},{}};
+	}
+	@DataProvider
+	public Object[][] mainbranch2(){
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ADIDAS ORIGINAL");
+
+		HashMap<String, String> map1 = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ZARA COAT 3");
+		return new Object[][] {{},{}};
+	}
+	@DataProvider
+	public Object[][]mainbranch3(){
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ADIDAS ORIGINAL");
+
+		HashMap<String, String> map1 = new HashMap<String, String>();
+		map.put("Email", "sanjairajendran10@gmail.com");
+		map.put("Password", "Sanjaikumar10*");
+		map.put("productname","ZARA COAT 3");
+		return new Object[][] {{},{}};
+	}
 
 
 }
@@ -121,7 +186,7 @@ public class Placing_order extends Baseclass{
 
 
 
-
+//above dataprovider is for practice purpose only except first data provider and have put many many sysout that to practice
 
 
 
