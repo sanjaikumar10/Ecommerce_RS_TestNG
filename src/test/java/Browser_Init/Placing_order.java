@@ -84,6 +84,15 @@ public class Placing_order extends Baseclass{
 		String thankMessage=lib.getText(pageelements.validation_message);
 		System.out.println(thankMessage);
 		Assert.assertTrue(thankMessage.trim().equalsIgnoreCase("Thankyou for the order."));
+		
+		System.out.println("Git practice 1");
+		System.out.println("Git practice 2");
+		System.out.println("Git practice 3");
+		System.out.println("Git practice 4");
+		System.out.println("Git practice 5");
+		// above sysout  line for git  practice purpose 
+		System.out.println("second push pul1");
+		
 	}
 
 	@DataProvider
@@ -98,8 +107,8 @@ public class Placing_order extends Baseclass{
 		map.put("Password", "Sanjaikumar10*");
 		map.put("productname","ZARA COAT 3");
 		return new Object[][] {{},{}};
-
 	}
+
 
 }
 
