@@ -75,6 +75,9 @@ public class Placing_order extends Baseclass{
 				lib.scrollToElement(listsofCountry);
 				Thread.sleep(3000);
 				listsofCountry.click();
+				System.out.println("Qa branch");
+				System.out.println("Qa branch");
+				System.out.println("Qa branch");
 			}
 		}
 	}
