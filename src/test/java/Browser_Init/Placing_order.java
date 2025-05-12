@@ -92,7 +92,7 @@ public class Placing_order extends Baseclass{
 		System.out.println("Git practice 5");
 		// above sysout  line for git  practice purpose 
 		System.out.println("second push pul1");
-		
+		System.out.println("third push pul1");
 	}
 
 	@DataProvider
