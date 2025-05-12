@@ -49,7 +49,8 @@ public class Baseclass {
 
 		}else {
 			System.out.println("Browser not valid");
-
+			System.out.println("Browser not valid");
+			System.out.println("Browser not valid");
 		}}
 
 	//@AfterClass

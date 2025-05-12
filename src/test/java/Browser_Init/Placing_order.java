@@ -93,6 +93,9 @@ public class Placing_order extends Baseclass{
 		// above sysout  line for git  practice purpose 
 		System.out.println("second push pul1");
 		System.out.println("third push pul1");
+		System.out.println("fourth push pul1");
+		System.out.println("fifth push pul1");
+		System.out.println("sixth push pul1");
 	}
 
 	@DataProvider
